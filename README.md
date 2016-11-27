@@ -1,2 +1,2 @@
 # My-Christmas-Tree-Lights
-A "neopixel" string light show.
+A "neopixel" string light show for arduino.
