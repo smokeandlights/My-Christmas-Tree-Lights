@@ -63,32 +63,33 @@ void loop() {
 
   racingDots(strip.Color(255, 0, 0), 40);
   reverseracingDots(strip.Color(255, 0, 0), 40);
-  racingDots(strip.Color(0, 255, 0), 40);
-  reverseracingDots(strip.Color(0, 255, 0), 40);
-  racingDots(strip.Color(0, 0, 255), 40);
-  reverseracingDots(strip.Color(0, 0, 255), 40);
-  racingDots(strip.Color(0, 255, 255), 40);
-  reverseracingDots(strip.Color(0, 255, 255), 40);
-  racingDots(strip.Color(255, 0, 255), 40);
-  reverseracingDots(strip.Color(255, 0, 255), 40);
   racingDots(strip.Color(255, 255, 0), 40);
   reverseracingDots(strip.Color(255, 255, 0), 40);
+  racingDots(strip.Color(0, 255, 0), 40);
+  reverseracingDots(strip.Color(0, 255, 0), 40);
+  racingDots(strip.Color(0, 255, 255), 40);
+  reverseracingDots(strip.Color(0, 255, 255), 40);
+  racingDots(strip.Color(0, 0, 255), 40);
+  reverseracingDots(strip.Color(0, 0, 255), 40);
+  racingDots(strip.Color(255, 0, 255), 40);
+  reverseracingDots(strip.Color(255, 0, 255), 40);
   racingDots(strip.Color(255, 255, 255), 40);
   reverseracingDots(strip.Color(255, 255, 255), 40);
 
   theaterChase(strip.Color(127, 127, 127), 100); // White
-  theaterChase(strip.Color(255, 0, 0), 100); // Red
-  theaterChase(strip.Color(127, 127, 0), 100); // Yellow
-  theaterChase(strip.Color(0, 255, 0), 100); // Green
-  theaterChase(strip.Color(0, 127, 127), 100);//Teal
-  theaterChase(strip.Color(0, 0, 255), 100); // Blue
-  theaterChase(strip.Color(127, 0, 127), 100); // Pink
+//   theaterChase(strip.Color(255, 0, 0), 100); // Red
+//   theaterChase(strip.Color(127, 127, 0), 100); // Yellow
+//   theaterChase(strip.Color(0, 255, 0), 100); // Green
+//   theaterChase(strip.Color(0, 127, 127), 100);//Teal
+//   theaterChase(strip.Color(0, 0, 255), 100); // Blue
+//   theaterChase(strip.Color(127, 0, 127), 100); // Pink
 
  // rainbow(50);
+  for(int i=0; i<5; i++){
   rainbowCycle(10);
-  rainbowCycle(10);
-  theaterChaseRainbow(100);
-
+  }
+  theaterChaseRainbow(10);
+  
 }
 //WaxOff
 void WaxOff(uint32_t c, uint8_t wait) {
